@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Шар_2" data-name="Шар 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 45.89 11.52">
+  <defs>
+    <style>
+      .cls-1 {
+        filter: url(#outer-glow-1);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        filter: url(#outer-glow-3);
+      }
+
+      .cls-4 {
+        fill: #3b3d3f;
+      }
+
+      .cls-3 {
+        filter: url(#outer-glow-2);
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation=".57"/>
+      <feFlood flood-color="#dccf3e" flood-opacity=".2"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-2" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-2" stdDeviation=".57"/>
+      <feFlood flood-color="#dccf3e" flood-opacity=".2"/>
+      <feComposite in2="blur-2" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="outer-glow-3" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur-3" stdDeviation=".57"/>
+      <feFlood flood-color="#dccf3e" flood-opacity=".2"/>
+      <feComposite in2="blur-3" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="content">
+    <g>
+      <polygon class="cls-4" points="41.92 1.85 42.85 4.74 45.89 4.74 43.43 6.52 44.37 9.41 41.92 7.62 39.46 9.41 40.4 6.52 37.94 4.74 40.98 4.74 41.92 1.85"/>
+      <polygon class="cls-4" points="32.87 1.85 33.81 4.74 36.84 4.74 34.39 6.52 35.33 9.41 32.87 7.62 30.42 9.41 31.35 6.52 28.9 4.74 31.93 4.74 32.87 1.85"/>
+      <polygon class="cls-1" points="23.83 1.85 24.76 4.74 27.8 4.74 25.34 6.52 26.28 9.41 23.83 7.62 21.37 9.41 22.31 6.52 19.85 4.74 22.89 4.74 23.83 1.85"/>
+      <polygon class="cls-3" points="14.78 1.85 15.72 4.74 18.75 4.74 16.3 6.52 17.24 9.41 14.78 7.62 12.33 9.41 13.26 6.52 10.81 4.74 13.84 4.74 14.78 1.85"/>
+      <polygon class="cls-2" points="5.74 1.85 6.67 4.74 9.71 4.74 7.25 6.52 8.19 9.41 5.74 7.62 3.28 9.41 4.22 6.52 1.76 4.74 4.8 4.74 5.74 1.85"/>
+    </g>
+  </g>
+</svg>
