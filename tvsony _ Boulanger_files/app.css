@@ -1313,8 +1313,7 @@ body {
 }
 
 .main-section section.specifications .blackboard .row-tab.opinion .col-left {
-  background-color: rgb(88, 101, 245);
-  color: #fff;
+  background-color: rgb(197, 213, 234);
   text-transform: uppercase;
 }
 
@@ -1324,7 +1323,6 @@ body {
   .row-tab.opinion
   .col-products {
   position: relative;
-  color: #fff;
 }
 
 .main-section
@@ -1333,8 +1331,9 @@ body {
   .row-tab.opinion
   .col-products
   .cell-lcd {
-  background-color: rgb(0, 51, 102);
+  background-color: rgb(197, 213, 234);
   border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 
 .main-section
@@ -1343,7 +1342,7 @@ body {
   .row-tab.opinion
   .col-products
   .cell-premium {
-  background-color: rgb(0, 51, 102);
+  background-color: rgb(197, 213, 234);
   border-left: 1px solid #fff;
 }
 
@@ -1353,12 +1352,11 @@ body {
   .row-tab.opinion
   .col-products
   .cell-oled {
-  background-color: rgb(0, 51, 102);
+  background-color: rgb(197, 213, 234);
 }
 
 .main-section section.specifications .blackboard .row-tab.opinion .btn-line {
   position: absolute;
-  color: #fff;
   font-size: 30px;
   top: 0;
   height: 100%;
@@ -1632,6 +1630,7 @@ body {
   .col-products
   .cell
   .ssCell {
+  background-color: rgb(197, 213, 234);
   flex-direction: column;
   align-items: center;
 }
@@ -1717,7 +1716,18 @@ body {
   .cell
   .ssCell
   .all.w800 {
-  background-image: url(../img/model-w800.jpg);
+  background-image: url(../img/TV/W800.svg);
+}
+
+.main-section
+  section.specifications
+  .blackboard
+  .row-tab.model-name
+  .col-products
+  .cell
+  .ssCell
+  .all.x72k {
+  background-image: url(../img/TV/X72K.png);
 }
 
 .main-section
@@ -1922,6 +1932,7 @@ body {
   font-size: 12px;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(197, 213, 234);
 }
 
 .main-section
